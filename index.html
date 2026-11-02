@@ -3,202 +3,165 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Andi Al Musyawir — Elegant Portfolio</title>
-  <meta name="description" content="Portofolio pribadi Andi Al Musyawir. Lulusan MBA & Teknik Telekomunikasi." />
+  <title>Andi Al Musyawir — Portfolio</title>
+  <meta name="description" content="Portofolio pribadi Andi Al Musyawir. Professional in Business & Telecommunication." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- ===== Navbar ===== -->
-  <header class="navbar">
-    <div class="container nav-inner">
-      <a href="#home" class="logo">AM<span>.</span></a>
-
-      <nav class="nav-links">
-        <a href="#home" class="nav-link active">Home</a>
-        <a href="#projects" class="nav-link">Work</a>
-        <a href="#about" class="nav-link">About</a>
-        <a href="#process" class="nav-link">Process</a>
-        <a href="#contact" class="nav-link">Contact</a>
-      </nav>
-    </div>
-  </header>
 
   <main>
     <!-- ===== Hero Section ===== -->
     <section class="hero" id="home">
       <div class="container hero-inner">
-        <div class="hero-content reveal">
-          <span class="hero-tag">Professional Portfolio</span>
-          <h1>Andi Al Musyawir</h1>
-          <p class="hero-desc">
-            Master of Business Administration & Telecommunication Engineer. Specialized in <strong>Data Analysis</strong>, <strong>ESG</strong>, and <strong>Financial Strategy</strong>.
-          </p>
-          <div style="display: flex; gap: 20px; margin-top: 20px;">
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.7rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.1em;">Location</span>
-              <span style="font-size: 0.9rem;">Bandung, Indonesia</span>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.7rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.1em;">Status</span>
-              <span style="font-size: 0.9rem; color: var(--accent);">Available for hire</span>
-            </div>
-          </div>
-        </div>
-
         <div class="hero-photo reveal">
-          <!-- FOTO: Disesuaikan dengan deskripsi foto yang dikirimkan -->
+          <!-- FOTO ASLI: Prompt disesuaikan dengan foto yang Anda kirimkan -->
           <img
-            src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Professional%20studio%20portrait%20of%20a%20young%20Southeast%20Asian%20man%20with%20short%20black%20hair%2C%20wearing%20black%20rimmed%20glasses%2C%20a%20very%20thin%20neat%20mustache%2C%20dressed%20in%20a%20sharp%20black%20polo%20shirt%2C%20leaning%20slightly%20forward%2C%20confident%20and%20professional%20expression%2C%20warm%20cinematic%20lighting%2C%20dark%20minimalist%20background%2C%20high%20resolution%2C%20sharp%20focus&image_size=portrait_4_3"
+            src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Realistic%20photo%20of%20a%20young%20Southeast%20Asian%20man%20with%20short%20black%20hair%2C%20wearing%20black%20rimmed%20glasses%2C%20a%20very%20thin%20neat%20mustache%2C%20dressed%20in%20a%20sharp%20black%20polo%20shirt%2C%20leaning%20forward%20with%20arms%20crossed%20on%20a%20table%2C%20warm%20indoor%20ambient%20lighting%2C%20professional%20yet%20friendly%20expression%2C%20high%20resolution%2C%20natural%20photography&image_size=portrait_4_3"
             alt="Andi Al Musyawir" />
         </div>
+
+        <div class="hero-text reveal">
+          <span class="hero-tag">About Personal</span>
+          <h1>Hello, Im <br>Andi Al Musyawir</h1>
+          <p class="hero-desc">
+            Lulusan MBA & Teknik Telekomunikasi dengan fokus pada Analisis Data, ESG, dan Manajemen Keuangan. Memiliki pengalaman kepemimpinan sebagai Presiden BEM Telkom University.
+          </p>
+          <div class="hero-sig">Andi Al Musyawir</div>
+          <div class="social-icons">
+            <a href="mailto:andialwy24@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+            <a href="https://github.com/andialwy" target="_blank" aria-label="GitHub">
+              <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.63.07-.63 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.63-.33 2.47-.33.84 0 1.68.11 2.47.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/andialmusyawir/" target="_blank" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- ===== Projects Section ===== -->
-    <section class="section" id="projects">
+    <!-- ===== Brand Bar ===== -->
+    <div class="brand-bar">
+      <div class="container brand-inner">
+        <span>Telkom University</span>
+        <span>PT Tria Nusantara</span>
+        <span>Telkom Akses</span>
+        <span>IKAMI Sulsel</span>
+        <span>HMI Bandung</span>
+      </div>
+    </div>
+
+    <!-- ===== Services Section ===== -->
+    <section class="section" id="services">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-tag">Selected Works</span>
-          <h2 class="section-title">Showcasing professional <br>excellence and technical depth.</h2>
+          <span class="section-tag">Our Services</span>
+          <h2 class="section-title">What We Do.</h2>
         </div>
 
-        <div class="projects-grid">
-          <article class="project-card reveal">
-            <div class="project-img">
-              <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=modern%20financial%20dashboard%2C%20clean%20charts%20and%20data%20analysis%2C%20dark%20mode%20UI%2C%20elegant%20finance%20software%20interface&image_size=landscape_4_3" alt="Finance Management" />
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20M12 2l-2 2 2 2M12 22l2-2-2-2M2 12l2 2 2-2M22 12l-2-2-2 2"/></svg>
             </div>
-            <div class="project-info">
-              <span>Financial Strategy</span>
-              <h3>Chief of Finance Operations</h3>
-            </div>
-          </article>
-
-          <article class="project-card reveal">
-            <div class="project-img">
-              <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=sustainability%20research%20data%2C%20ESG%20metrics%20visualization%2C%20clean%20infographics%2C%20environmental%20impact%20study&image_size=landscape_4_3" alt="ESG Research" />
-            </div>
-            <div class="project-info">
-              <span>ESG & Sustainability</span>
-              <h3>Research & Data Bank Management</h3>
-            </div>
-          </article>
-
-          <article class="project-card reveal">
-            <div class="project-img">
-              <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=telecommunication%20infrastructure%2C%20fiber%20optic%20networking%2C%20modern%20technology%20systems%2C%20clean%20tech%20setup&image_size=landscape_4_3" alt="Telecom Tech" />
-            </div>
-            <div class="project-info">
-              <span>Infrastructure</span>
-              <h3>Telecommunication Engineering</h3>
-            </div>
-          </article>
-
-          <article class="project-card reveal">
-            <div class="project-img">
-              <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=leadership%20and%20management%20concept%2C%20professional%20collaboration%2C%20strategic%20planning%2C%20modern%20corporate%20leadership&image_size=landscape_4_3" alt="Leadership" />
-            </div>
-            <div class="project-info">
-              <span>Management</span>
-              <h3>Organizational Leadership (BEM)</h3>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== About Section ===== -->
-    <section class="section" id="about">
-      <div class="container">
-        <div class="about-flex">
-          <div class="about-info reveal">
-            <span class="section-tag">Biography</span>
-            <h4>Background</h4>
+            <h3>Data Analysis</h3>
+            <p>Riset data strategis dan manajemen bank data untuk kebutuhan korporasi.</p>
           </div>
-          <div class="about-content reveal">
-            <p class="about-text">
-              Bridging the gap between <strong>Telecommunication Technology</strong> and <strong>Strategic Business Administration</strong>. With an MBA background and engineering roots, I bring a data-driven approach to business operations and ESG initiatives.
-            </p>
-            
-            <div class="about-details">
-              <div class="detail-item">
-                <h5>Education</h5>
-                <p>MBA - Telkom University</p>
-                <p>B.Sc Telecommunication Engineering</p>
-              </div>
-              <div class="detail-item">
-                <h5>Experience</h5>
-                <p>Chief of Finance @ Tria Nusantara Karya</p>
-                <p>Research Staff @ Megah Ganda Utama</p>
-              </div>
-              <div class="detail-item">
-                <h5>Core Skills</h5>
-                <p>Data Analysis, ESG Strategy, Financial Reporting, Telecom Infrastructure.</p>
-              </div>
-              <div class="detail-item">
-                <h5>Recognition</h5>
-                <p>President of Student Executive Board (BEM FIT)</p>
-                <p>Best Youth House of Leaders 2018</p>
-              </div>
+
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
             </div>
+            <h3>ESG Specialist</h3>
+            <p>Fokus pada standar Environmental, Social, and Governance untuk keberlanjutan.</p>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3zM3 9h18M9 3v18"/></svg>
+            </div>
+            <h3>Finance Strategy</h3>
+            <p>Manajemen keuangan perusahaan dan penyusunan laporan finansial rutin.</p>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Leadership</h3>
+            <p>Koordinasi tim dan manajemen organisasi skala besar dengan visi strategis.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===== Process Section ===== -->
-    <section class="section" id="process">
+    <!-- ===== Team/Experience Section ===== -->
+    <section class="section" id="experience">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-tag">Methodology</span>
-          <h2 class="section-title">A systematic approach <br>to solving complex challenges.</h2>
+          <span class="section-tag">Our Team</span>
+          <h2 class="section-title">Meet Expert Team.</h2>
         </div>
 
-        <div class="process-grid reveal">
-          <div class="process-card">
-            <span class="process-num">01. Discovery</span>
-            <h3>Analysis</h3>
-            <p>Deep dive into data and requirements to identify the core problem and opportunities.</p>
+        <div class="team-grid">
+          <div class="team-card reveal">
+            <div class="team-photo">
+              <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=portrait%20of%20a%20professional%20finance%20executive%2C%20minimalist%20dark%20background%2C%20sharp%20focus&image_size=square" alt="Chief of Finance" />
+            </div>
+            <div class="team-info">
+              <h3>Chief Of Finance</h3>
+              <span class="role">PT. Tria Nusantara Karya</span>
+              <p>Mengelola arus kas perusahaan dan supervisi anggaran operasional secara mendalam.</p>
+            </div>
           </div>
-          <div class="process-card">
-            <span class="process-num">02. Strategy</span>
-            <h3>Ideation</h3>
-            <p>Developing frameworks and strategic plans tailored to business and technical needs.</p>
+
+          <div class="team-card reveal">
+            <div class="team-photo">
+              <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=portrait%20of%20a%20research%20scientist%2C%20minimalist%20dark%20background%2C%20sharp%20focus&image_size=square" alt="Research Staff" />
+            </div>
+            <div class="team-info">
+              <h3>Research Staff</h3>
+              <span class="role">PT. Megah Ganda Utama</span>
+              <p>Melakukan riset jurnal manajemen limbah dan membangun bank data riset korporasi.</p>
+            </div>
           </div>
-          <div class="process-card">
-            <span class="process-num">03. Execution</span>
-            <h3>Delivery</h3>
-            <p>Implementing high-impact solutions with precision and continuous optimization.</p>
+
+          <div class="team-card reveal">
+            <div class="team-photo">
+              <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=portrait%20of%20a%20telecom%20engineer%2C%20minimalist%20dark%20background%2C%20sharp%20focus&image_size=square" alt="Telecom Technician" />
+            </div>
+            <div class="team-info">
+              <h3>Fiber Optic Tech</h3>
+              <span class="role">Telkom Akses</span>
+              <p>Implementasi jaringan fiber optik, splicing, dan pemeliharaan infrastruktur jaringan.</p>
+            </div>
+          </div>
+
+          <div class="team-card reveal">
+            <div class="team-photo">
+              <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=portrait%20of%20a%20student%20leader%2C%20minimalist%20dark%20background%2C%20sharp%20focus&image_size=square" alt="Student Leader" />
+            </div>
+            <div class="team-info">
+              <h3>President BEM</h3>
+              <span class="role">Telkom University</span>
+              <p>Memimpin organisasi mahasiswa tingkat universitas dengan fokus pada advokasi strategis.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===== Footer Section ===== -->
-    <section class="footer" id="contact">
+    <footer class="footer">
       <div class="container">
-        <div class="footer-top reveal">
-          <div class="footer-cta">
-            <span class="section-tag">Get in touch</span>
-            <h2>Let's build something <br>extraordinary together.</h2>
-          </div>
-          <div class="footer-socials">
-            <a href="mailto:andialwy24@gmail.com">Email</a>
-            <a href="https://linkedin.com/in/andialmusyawir/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/andialwy" target="_blank">GitHub</a>
-          </div>
-        </div>
-        
-        <div class="footer-bottom reveal">
-          <p>&copy; <span id="year"></span> Andi Al Musyawir</p>
-          <p>Handcrafted with precision</p>
-        </div>
+        &copy; <span id="year"></span> Andi Al Musyawir. All Rights Reserved.
       </div>
-    </section>
+    </footer>
   </main>
 
   <script src="script.js"></script>
