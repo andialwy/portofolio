@@ -18,10 +18,10 @@
         GANTI: daftar peran/keahlian di bawah ini
      --------------------------------------------------------- */
   const roles = [
-    "Profesional Multidisiplin",
-    "Perancang Pengalaman Digital",
-    "Pemecah Masalah",
-    "Pembelajar Sepanjang Waktu"
+    "Data Analyst",
+    "ESG Specialist",
+    "Business Administrator",
+    "Telecommunication Engineer"
   ];
 
   const typedEl = $("#typed");
